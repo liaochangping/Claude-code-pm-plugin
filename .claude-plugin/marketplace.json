@@ -4,10 +4,21 @@
   "version": "1.0.0",
   "description": "A comprehensive PM plugin for Claude Code that provides product management capabilities including PRD generation, backlog management, project discovery, and review workflows.",
   "author": "liaochangping",
+  "owner": {
+    "name": "liaochangping",
+    "type": "user"
+  },
   "repository": "https://github.com/liaochangping/Claude-code-pm-plugin",
   "license": "MIT",
   "categories": ["productivity", "development", "project-management"],
   "keywords": ["pm", "product-management", "prd", "backlog", "agile"],
+  "plugins": [
+    {
+      "name": "claude-code-pm-plugin",
+      "version": "1.0.0",
+      "type": "plugin"
+    }
+  ],
   "commands": [
     {
       "name": "discover",
