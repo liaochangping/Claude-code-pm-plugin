@@ -26,6 +26,7 @@
         "agile",
         "agents",
         "commands",
+        "skills",
         "project-discovery",
         "review"
       ],
@@ -38,8 +39,30 @@
         "agile",
         "agents",
         "commands",
+        "skills",
         "project-discovery",
         "review"
+      ],
+      "agents": [
+        "./agents/pm_discovery.agent.md",
+        "./agents/pm_prd.agent.md",
+        "./agents/pm_priority.agent.md",
+        "./agents/pm_review.agent.md",
+        "./agents/pm_tech_bridge.agent.md"
+      ],
+      "skills": [
+        "./skills/product-discovery",
+        "./skills/prd-writer",
+        "./skills/prd-reviewer",
+        "./skills/priority-planner",
+        "./skills/pm-tech-bridge"
+      ],
+      "commands": [
+        "./commands/discover.md",
+        "./commands/prd.md",
+        "./commands/backlog.md",
+        "./commands/review.md",
+        "./commands/roadmap.md"
       ]
     }
   ]
