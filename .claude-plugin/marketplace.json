@@ -1,65 +1,46 @@
 {
   "name": "claude-code-pm-plugin",
-  "displayName": "PM Plugin for Claude Code",
-  "version": "1.0.0",
-  "description": "A comprehensive PM plugin for Claude Code that provides product management capabilities including PRD generation, backlog management, project discovery, and review workflows.",
-  "author": "liaochangping",
   "owner": {
     "name": "liaochangping",
-    "type": "user"
+    "email": "liaochangping@users.noreply.github.com"
   },
-  "repository": "https://github.com/liaochangping/Claude-code-pm-plugin",
-  "license": "MIT",
-  "categories": ["productivity", "development", "project-management"],
-  "keywords": ["pm", "product-management", "prd", "backlog", "agile"],
+  "metadata": {
+    "description": "Comprehensive PM plugin for Claude Code with PRD generation, backlog management, project discovery, and review workflows"
+  },
   "plugins": [
     {
       "name": "claude-code-pm-plugin",
-      "source": "https://github.com/liaochangping/Claude-code-pm-plugin"
-    }
-  ],
-  "commands": [
-    {
-      "name": "discover",
-      "description": "Discover and analyze project requirements and user needs"
-    },
-    {
-      "name": "prd",
-      "description": "Generate Product Requirement Documents"
-    },
-    {
-      "name": "backlog",
-      "description": "Manage and organize backlog items"
-    },
-    {
-      "name": "review",
-      "description": "Review and validate project deliverables"
-    },
-    {
-      "name": "roadmap",
-      "description": "Create and manage product roadmaps"
-    }
-  ],
-  "agents": [
-    {
-      "name": "pm_discovery",
-      "description": "Agent for project discovery and requirement gathering"
-    },
-    {
-      "name": "pm_prd",
-      "description": "Agent for generating PRD documents"
-    },
-    {
-      "name": "pm_priority",
-      "description": "Agent for prioritizing backlog items"
-    },
-    {
-      "name": "pm_review",
-      "description": "Agent for reviewing project outputs"
-    },
-    {
-      "name": "pm_tech_bridge",
-      "description": "Agent for bridging PM and technical requirements"
+      "source": "./",
+      "description": "AI-native product management plugin with PRD generation, backlog management, project discovery, and review workflows",
+      "author": {
+        "name": "liaochangping"
+      },
+      "homepage": "https://github.com/liaochangping/Claude-code-pm-plugin",
+      "repository": "https://github.com/liaochangping/Claude-code-pm-plugin",
+      "license": "MIT",
+      "keywords": [
+        "pm",
+        "product-management",
+        "prd",
+        "backlog",
+        "agile",
+        "agents",
+        "commands",
+        "project-discovery",
+        "review"
+      ],
+      "category": "workflow",
+      "tags": [
+        "pm",
+        "product-management",
+        "prd",
+        "backlog",
+        "agile",
+        "agents",
+        "commands",
+        "project-discovery",
+        "review"
+      ]
     }
   ]
 }
