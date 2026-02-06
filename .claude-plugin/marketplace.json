@@ -15,8 +15,7 @@
   "plugins": [
     {
       "name": "claude-code-pm-plugin",
-      "version": "1.0.0",
-      "type": "plugin"
+      "source": "https://github.com/liaochangping/Claude-code-pm-plugin"
     }
   ],
   "commands": [
